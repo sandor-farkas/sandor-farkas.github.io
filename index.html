@@ -1,57 +1,118 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - ApplicationForm</title>
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robot" content="all">
+  <title>namecard</title>
+  <meta name="description" content="namecard, sailor, sailing, skipper, CNC, CNC programmer">
+  <meta name="author" content="sándor farkas">
+  <link rel="stylesheet" href="main.css" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<form action="">
-  <fieldset>
-    <legend>Interesting application form</legend>
-    
-    <fieldset>
-      <legend>What is your name?</legend>
-      <input type="text" id="name" name="name">
-    </fieldset>
-    
-    <fieldset>
-      <legend>What is favorit color?</legend>
-      <input type="checkbox" id="red" name="color">
-      <label for="red">Red</label><br>
-      <input type="checkbox" id="green" name="color">
-      <label for="green">Green</label><br>
-      <input type="checkbox" id="blue" name="color">
-      <label for="blue">Blue</label><br>
-      <input type="checkbox" id="other" name="color">
-      <label for="other">Other</label>
-      <input type="text">
-    </fieldset>
-    
-    <fieldset>
-      <legend>Would you like to become a developer</legend>
-      <input type="radio" id="" name="">
-      <label for="">Yes</label><br>
-      <input type="radio" id="" name="">
-      <label for="">Ano</label><br>
-      <input type="radio" id="" name="">
-      <label for="">Igen</label><br>
-      <input type="radio" id="" name="">
-      <label for=""></label><br>
-    </fieldset>
-    
-    <fieldset>
-      <legend>Why would you like to become a developer?</legend>
-      <textarea id="" name=""></textarea>
-    </fieldset>
-    
-    <button type="submit">Submit</button>
-      
-  </fieldset>
-</form>
-<!-- partial -->
-  
+
+	<div class="profilcard">
+		<div class="head">
+			<div class="profile-image">
+				<img  id="image" src="assets/sydney2018.jpg" alt="image">
+			</div>
+			<div class="name-headline">
+				<h1>SÁNDOR FARKAS</h1>
+				<h3>Skipper & CNC programmer</h3>
+				<p class="ivory"><i>from</i></p>
+				<p><i class="fa fa-map-marker" ></i> Tatabánya, HU</p>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="about">
+                <h2>About me</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel dolor porta, fringilla turpis nec, pharetra sem. Vestibulum at orci nulla. Mauris finibus augue at elementum euismod. Nulla lorem felis, vulputate a ante eget, ullamcorper condimentum arcu. Curabitur non auctor lectus. Nam dignissim urna non dui pellentesque, ut facilisis ex commodo. Vivamus mollis tellus erat, suscipit ornare lacus venenatis vel.</p>
+			</div>
+          
+			<div class="images">
+              <div class="cont">
+                <img class="myimg" src="assets/DSC_0683.JPG" alt="Croatia">
+                <div class="overlay">
+                  <div class="txt">
+                    <a class="link" href="assets/DSC_0683.JPG" title="Croatia" target="_blank"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="cont">
+                <img class="myimg" src="assets/DSC_0826.JPG" alt="Mooring">
+                <div class="overlay">
+                  <div class="txt">
+                    <a class="link" href="assets/DSC_0826.JPG" target="_blank"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+               <div class="cont">
+                <img class="myimg" src="assets/Lanserote2016.jpg" alt="LanzaroteRun">
+                <div class="overlay">
+                  <div class="txt">
+                    <a class="link" href="assets/Lanserote2016.jpg" target="_blank"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+               <div class="cont">
+                <img class="myimg" src="assets/DSC_0709.JPG" alt="With engine">
+                <div class="overlay">
+                  <div class="txt">
+                    <a class="link" href="assets/DSC_0709.JPG" target="_blank"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="cont">
+                <img class="myimg" src="assets/ironman94_m.jpg" alt="Ironman finis '94">
+                <div class="overlay">
+                  <div class="txt">
+                     <a class="link" href="assets/ironman94.jpg" target="_blank"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+               <div class="cont">
+                <img class="myimg" src="assets/DSC_0734.JPG" alt="Between islands">
+                <div class="overlay">
+                  <div class="txt">
+                    <a class="link" href="assets/DSC_0734.JPG" target="_blank"><i class="fa fa-eye fa-2x" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              
+			</div>
+          
+		</div>
+
+		<div class="footer">
+			<div class="links">
+				<ul>
+					<li><a href="https://github.com/#" title="Visit me on Github" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
+					<li><a href="https://twitter.com/#" title="Visit me on Twitter" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+					<li><a href="https://instagram.com/#" title="Visit me on Instagram" target="_blank"><i class="fa fa-instagram fa-3x"></i></a></li>
+					<li><a href="https://linkedin.com/#" title="Visit me on Linkedin" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				<a class="hu" href="index-hu.html" title="hu"><img src="assets/hu.png" alt="hu"></a>
+				<a class="mail" href="#" title="Send mail" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+                <a class="en" href="index.html" title="en"><img src="assets/en.png" alt="en"></a>
+			</div>
+		</div>
+	</div>
+
 </body>
+
 </html>
+
